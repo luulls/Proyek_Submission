@@ -5,7 +5,7 @@ Berisi file README.md
 ```
 cd (nama path folder)
 python -m venv env
-env\Scripts\activate
+env\bin\activate
 pip install pandas matplotlib seaborn streamlit babel
 pip freeze > requirements.txt
 notepad requirements.txt
@@ -13,5 +13,6 @@ notepad requirements.txt
 
 ## Run steamlit app
 ```
+cd dashboard
 streamlit run dashboard.py
 ```
